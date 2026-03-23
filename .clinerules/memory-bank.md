@@ -56,6 +56,25 @@ Create additional files/folders within memory-bank/ when they help organize:
 - Testing strategies
 - Deployment procedures
 
+## Global Skills Reference
+
+In addition to the Memory Bank, I have access to **Global Skills** stored at:
+- **Path**: `~/.cline/skills` (Windows: `C:\Users\Hello\.cline\skills`)
+- **Available Skills**:
+  - `laravel-inertia-fluxui`: Comprehensive documentation for Laravel + Inertia + Flux UI components (55+ component docs)
+
+### When to Consult Global Skills
+- When user asks to create/modify Laravel Flux UI components
+- When implementing UI patterns in Livewire applications
+- When needing component-specific documentation (Button, Modal, Table, etc.)
+- When styling or theming with Flux UI
+
+### Accessing Skills
+Skills are organized in subdirectories with markdown files:
+- Main index: `SKILL.md` describes the skill and lists contents
+- Component docs: Individual `.md` files for each component/topic
+- Reference these when user mentions Flux UI components or Laravel/Inertia patterns
+
 ## Documentation Updates
 
 Memory Bank updates occur when:

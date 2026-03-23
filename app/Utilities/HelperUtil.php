@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Session;
 
 class HelperUtil{
 
-   
+    //HelperUtil::aes_decrypt(txt) and aes_encrypt(txt)
     /*public static function setDatabaseConnection($connectionName)
     {
         // Set the connection name in the session
