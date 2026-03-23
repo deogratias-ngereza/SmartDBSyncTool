@@ -15,6 +15,17 @@
                     <flux:sidebar.item icon="home" :href="route('dashboard')" :current="request()->routeIs('dashboard')" wire:navigate>
                         {{ __('Dashboard') }}
                     </flux:sidebar.item>
+                    <flux:sidebar.item icon="user" :href="route('users.index')" :current="request()->routeIs('users.index')" wire:navigate>
+                        {{ __('Users') }}
+                    </flux:sidebar.item>
+
+                    <flux:sidebar.group expandable heading="Favorites" class="grid">
+                        <flux:sidebar.item href="#">Marketing site</flux:sidebar.item>
+                        <flux:sidebar.item href="#">Android app</flux:sidebar.item>
+                        <flux:sidebar.item href="#">Brand guidelines</flux:sidebar.item>
+                    </flux:sidebar.group>
+
+
                 </flux:sidebar.group>
             </flux:sidebar.nav>
 

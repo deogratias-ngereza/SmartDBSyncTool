@@ -6,7 +6,11 @@ use Laravel\Fortify\Features;
 Route::middleware(['auth'])->group(function () {
     Route::redirect('settings', 'settings/profile');
 
+    Route::livewire('settings/company', 'pages::settings.company')->name('company.edit');
     Route::livewire('settings/profile', 'pages::settings.profile')->name('profile.edit');
+
+    Route::livewire('settings/users', 'pages::config.users')->name('users.index');
+
 });
 
 Route::middleware(['auth', 'verified'])->group(function () {
